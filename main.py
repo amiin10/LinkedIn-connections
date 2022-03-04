@@ -28,7 +28,7 @@ def dump_data(data):
                 location text,
                 link text
                 )""")
-    for lst in range(data): # lst is a list of information for one person
+    for lst in range(data):
         try:
             cur.execute("INSERT INTO people VALUES (?,?,?,?)",(lst[0],lst[1],lst[2],lst[3]))
             con.commit()
@@ -123,9 +123,9 @@ def grab_links(driver):
     time.sleep(30)
     lnks=driver.find_elements_by_tag_name("a")
     connections_links = []
-    for lnk in lnks[8:210]: # out of this range is useless 
+    for lnk in lnks[8:210]: 
         connections_links.append(lnk.get_attribute('href'))
-    # remove dublicates
+    
     del connections_links[1::2]
     connections_links.append(URL3)
     return connections_links
@@ -133,7 +133,7 @@ def grab_links(driver):
 def sing_in(driver):
     driver.get(URL)
     time.sleep(5)
-    # sing in
+    
     username = driver.find_element_by_xpath("//input[@name='session_key']")
     password = driver.find_element_by_xpath("//input[@name='session_password']")
 
