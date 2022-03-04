@@ -50,5 +50,5 @@
 2022-03-04 23:50:40,233:ERROR:id:1 +++++ second time Error ++++++ 
 
 
-2022-03-04 23:50:42,413:INFO: *** Start dumping data to sqlite3  *** 
+2022-03-04 23:50:42,413:INFO: *** Start dumping data to sqlite3 *** 
 2022-03-04 23:50:42,453:INFO:dummped all contacts info Successfully
