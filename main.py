@@ -18,6 +18,7 @@ URL = "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_n
 URL2 = "https://www.linkedin.com/mynetwork/invite-connect/connections/"
 URL3 = "https://www.linkedin.com/in/amin-hs-608763233/"
 
+
 def dump_data(data):
     logging.info(" *** Start dumping data to sqlite3  *** ")
     con = sqlite3.connect('Amin.db')
