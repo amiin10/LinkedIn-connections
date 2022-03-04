@@ -1,0 +1,54 @@
+2022-03-04 23:48:50,024:DEBUG:POST http://localhost:62685/session/6d6be310c5f5fbaf80ffe9fc587aee41/url {"url": "https://www.linkedin.com/in/amin-hosseini78/"}
+2022-03-04 23:49:01,080:DEBUG:http://localhost:62685 "POST /session/6d6be310c5f5fbaf80ffe9fc587aee41/url HTTP/1.1" 200 14
+2022-03-04 23:49:01,084:DEBUG:Finished Request
+2022-03-04 23:49:06,096:DEBUG:GET http://localhost:62685/session/6d6be310c5f5fbaf80ffe9fc587aee41/source {}
+2022-03-04 23:49:06,245:DEBUG:http://localhost:62685 "GET /session/6d6be310c5f5fbaf80ffe9fc587aee41/source HTTP/1.1" 200 396128
+2022-03-04 23:49:06,259:DEBUG:Finished Request
+2022-03-04 23:49:07,949:INFO:id:0 Successfully logged user:Seyed Mohammad Amin Hosseini
+
+
+2022-03-04 23:49:07,950:DEBUG:POST http://localhost:62685/session/6d6be310c5f5fbaf80ffe9fc587aee41/url {"url": "https://www.linkedin.com/mynetwork/invite-connect/connections/#"}
+2022-03-04 23:49:11,767:DEBUG:http://localhost:62685 "POST /session/6d6be310c5f5fbaf80ffe9fc587aee41/url HTTP/1.1" 200 14
+2022-03-04 23:49:11,770:DEBUG:Finished Request
+2022-03-04 23:49:16,772:DEBUG:GET http://localhost:62685/session/6d6be310c5f5fbaf80ffe9fc587aee41/source {}
+2022-03-04 23:49:16,947:DEBUG:http://localhost:62685 "GET /session/6d6be310c5f5fbaf80ffe9fc587aee41/source HTTP/1.1" 200 293265
+2022-03-04 23:49:16,963:DEBUG:Finished Request
+2022-03-04 23:49:18,227:ERROR:id:1 +++ Error +++ raised for first try for user:https://www.linkedin.com/in/amin-hosseini78/
+
+
+2022-03-04 23:49:18,812:DEBUG:POST http://localhost:63062/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-03-04 23:49:18,814:DEBUG:Starting new HTTP connection (1): localhost:63062
+2022-03-04 23:49:21,051:DEBUG:http://localhost:63062 "POST /session HTTP/1.1" 200 787
+2022-03-04 23:49:21,054:DEBUG:Finished Request
+2022-03-04 23:49:21,055:DEBUG:POST http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/url {"url": "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"}
+2022-03-04 23:49:25,150:DEBUG:http://localhost:63062 "POST /session/426dd23b23857c2a399fd4b4b3525e18/url HTTP/1.1" 200 14
+2022-03-04 23:49:25,152:DEBUG:Finished Request
+2022-03-04 23:49:30,166:DEBUG:POST http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/element {"using": "xpath", "value": "//input[@name='session_key']"}
+2022-03-04 23:49:30,277:DEBUG:http://localhost:63062 "POST /session/426dd23b23857c2a399fd4b4b3525e18/element HTTP/1.1" 200 88
+2022-03-04 23:49:30,279:DEBUG:Finished Request
+2022-03-04 23:49:30,280:DEBUG:POST http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/element {"using": "xpath", "value": "//input[@name='session_password']"}
+2022-03-04 23:49:30,329:DEBUG:http://localhost:63062 "POST /session/426dd23b23857c2a399fd4b4b3525e18/element HTTP/1.1" 200 88
+2022-03-04 23:49:30,331:DEBUG:Finished Request
+2022-03-04 23:49:30,333:DEBUG:POST http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/element/adabe07f-ec99-4085-9c39-3bcb210db149/value {"text": "error123edc@gmail.com", "value": ["e", "r", "r", "o", "r", "1", "2", "3", "e", "d", "c", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "adabe07f-ec99-4085-9c39-3bcb210db149"}
+2022-03-04 23:49:30,495:DEBUG:http://localhost:63062 "POST /session/426dd23b23857c2a399fd4b4b3525e18/element/adabe07f-ec99-4085-9c39-3bcb210db149/value HTTP/1.1" 200 14
+2022-03-04 23:49:30,498:DEBUG:Finished Request
+2022-03-04 23:49:30,500:DEBUG:POST http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/element/b85ed642-f5a9-461d-80da-c6cca5a53dc2/value {"text": "Amin.4735565633", "value": ["A", "m", "i", "n", ".", "4", "7", "3", "5", "5", "6", "5", "6", "3", "3"], "id": "b85ed642-f5a9-461d-80da-c6cca5a53dc2"}
+2022-03-04 23:49:30,751:DEBUG:http://localhost:63062 "POST /session/426dd23b23857c2a399fd4b4b3525e18/element/b85ed642-f5a9-461d-80da-c6cca5a53dc2/value HTTP/1.1" 200 14
+2022-03-04 23:49:30,753:DEBUG:Finished Request
+2022-03-04 23:49:35,761:DEBUG:POST http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/element {"using": "xpath", "value": "//button[@type='submit']"}
+2022-03-04 23:49:35,812:DEBUG:http://localhost:63062 "POST /session/426dd23b23857c2a399fd4b4b3525e18/element HTTP/1.1" 200 88
+2022-03-04 23:49:35,814:DEBUG:Finished Request
+2022-03-04 23:49:35,815:DEBUG:POST http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/element/6ad7896b-890b-4a72-8e6c-eed357640e07/click {"id": "6ad7896b-890b-4a72-8e6c-eed357640e07"}
+2022-03-04 23:50:23,377:DEBUG:http://localhost:63062 "POST /session/426dd23b23857c2a399fd4b4b3525e18/element/6ad7896b-890b-4a72-8e6c-eed357640e07/click HTTP/1.1" 200 14
+2022-03-04 23:50:23,379:DEBUG:Finished Request
+2022-03-04 23:50:28,382:DEBUG:POST http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/url {"url": "https://www.linkedin.com/mynetwork/invite-connect/connections/#"}
+2022-03-04 23:50:34,592:DEBUG:http://localhost:63062 "POST /session/426dd23b23857c2a399fd4b4b3525e18/url HTTP/1.1" 200 14
+2022-03-04 23:50:34,594:DEBUG:Finished Request
+2022-03-04 23:50:39,605:DEBUG:GET http://localhost:63062/session/426dd23b23857c2a399fd4b4b3525e18/source {}
+2022-03-04 23:50:39,724:DEBUG:http://localhost:63062 "GET /session/426dd23b23857c2a399fd4b4b3525e18/source HTTP/1.1" 200 271275
+2022-03-04 23:50:39,733:DEBUG:Finished Request
+2022-03-04 23:50:40,233:ERROR:id:1 +++++ second time Error ++++++ 
+
+
+2022-03-04 23:50:42,413:INFO: *** Start dumping data to sqlite3  *** 
+2022-03-04 23:50:42,453:INFO:dummped all contacts info Successfully
